@@ -48,10 +48,8 @@ namespace Piramide{
                 }
                 
             }
-            
-            int mattrem = mattoni - mattnec;
 
-            return mattrem;
+            return mattoni - mattnec;
         }
 
     }
