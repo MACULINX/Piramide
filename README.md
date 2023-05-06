@@ -45,10 +45,12 @@ public static int Piani( int mattoni )
     return piani;
 }
 ```
+
+Questo algoritmo calcola la quantità di piani che si possono costruire dati i mattoni
 </details>
 
 <details>
-<summary>Metodo int Piani</summary>
+<summary>Metodo int Rimanenti</summary>
 
 ```c#
 public static int Rimanenti( int mattoni )
@@ -72,4 +74,6 @@ public static int Rimanenti( int mattoni )
 
     return mattoni - mattnec;
 }
+```
+Questo algoritmo calcola la quantità di mattoni rimanenti dopo aver costruito la piramide
 </details>
