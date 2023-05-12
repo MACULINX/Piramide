@@ -47,9 +47,9 @@ public static int Piani( int mattoni )
 ```
 
 Questo algoritmo calcola la quantità di piani che si possono costruire dati i mattoni
-    
-    Il codice e' composto principalmente da un while ed un if controllati dalla stessa flag.
-    Il valore della flag cambia solo quando il valore dei mattoni temporanei e' superiore a quello dato e ogni volta che esegue l'if aggiunge 1 a piani.
+
+Il codice e' composto principalmente da un while ed un if controllati dalla stessa flag.
+Il valore della flag cambia solo quando il valore dei mattoni temporanei e' superiore a quello dato e ogni volta che esegue l'if aggiunge 1 a piani.
 </details>
 
 <details>
@@ -80,6 +80,6 @@ public static int Rimanenti( int mattoni )
 ```
 Questo algoritmo calcola la quantità di mattoni rimanenti dopo aver costruito la piramide
     
-    Il codice e' praticamente uguale a quello precedente solo che non viene utilizzata una variabile piani perche' non sarebbe necessaria.
-    Conta i mattoni necessari che si possono costruire con i mattoni dati e dopo aver controllato quanti mattoni gli sono necessari, li sottrae dai mattoni dati
+Il codice e' praticamente uguale a quello precedente solo che non viene utilizzata una variabile piani perche' non sarebbe necessaria.
+Conta i mattoni necessari che si possono costruire con i mattoni dati e dopo aver controllato quanti mattoni gli sono necessari, li sottrae dai mattoni dati
 </details>
